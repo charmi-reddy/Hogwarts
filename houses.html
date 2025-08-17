@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hogwarts Houses & Sorting</title>
+    <link rel="stylesheet" href="houses.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-overlay"></div>
+    <header class="hogwarts-header">
+        <h1>Hogwarts Houses</h1>
+        <p class="motto">"Let the Sorting Hat decide your fate!"</p>
+    </header>
+    <nav class="hogwarts-nav">
+        <ul>
+            <li><a href="hogwarts.html">Home</a></li>
+            <li><a href="houses.html" class="active">Houses</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="sorting-section">
+            <h2>Sorting Ceremony</h2>
+            <p>Click the button and let the magic hat sort you into your house!</p>
+            <button id="sort-btn">Sort Me!</button>
+            <div id="result"></div>
+        </section>
+        <section class="houses-list">
+            <h2>Meet the Houses</h2>
+            <div class="house gryffindor">Gryffindor</div>
+            <div class="house slytherin">Slytherin</div>
+            <div class="house ravenclaw">Ravenclaw</div>
+            <div class="house hufflepuff">Hufflepuff</div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Hogwarts. Magic is real.
+    </footer>
+    <script>
+        const houses = [
+            { name: "Gryffindor", class: "gryffindor" },
+            { name: "Slytherin", class: "slytherin" },
+            { name: "Ravenclaw", class: "ravenclaw" },
+            { name: "Hufflepuff", class: "hufflepuff" }
+        ];
+        document.getElementById('sort-btn').onclick = function() {
+            const house = houses[Math.floor(Math.random() * houses.length)];
+            document.getElementById('result').innerHTML = 
+                `<span class="house ${house.class}">${house.name}!</span>`;
+        };
+    </script>
+</body>
+</html>
