@@ -16,7 +16,6 @@ body {
     height: 100vh;
     filter: brightness(0.6) blur(1px);
 }
-
 body::before {
     content: "";
     position: fixed;
