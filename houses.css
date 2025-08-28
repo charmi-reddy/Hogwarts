@@ -123,7 +123,6 @@ body::before {
     text-shadow: 0 0 12px #fff8, 0 0 8px #d4af37;
     margin-bottom: 18px;
 }
-
 .house {
     display: inline-block;
     padding: 18px 32px;
@@ -140,40 +139,34 @@ body::before {
     position: relative;
     z-index: 1;
 }
-
 .house:hover {
     transform: scale(1.07) rotate(-2deg);
     box-shadow: 0 0 32px 8px #ffd70099, 0 0 18px 4px #fff8 inset;
 }
-
 .gryffindor {
     background: linear-gradient(135deg, #ae0001 70%, #ffd700 100%);
     color: #fffbe6;
     text-shadow: 0 0 8px #000a;
     border-color: #ffd700;
 }
-
 .slytherin {
     background: linear-gradient(135deg, #2a623d 70%, #aaaaaa 100%);
     color: #e0ffe0;
     text-shadow: 0 0 8px #000a;
     border-color: #aaaaaa;
 }
-
 .ravenclaw {
     background: linear-gradient(135deg, #222f5b 70%, #946b2d 100%);
     color: #e0eaff;
     text-shadow: 0 0 8px #000a;
     border-color: #946b2d;
 }
-
 .hufflepuff {
     background: linear-gradient(135deg, #f0c75e 70%, #372e29 100%);
     color: #372e29;
     text-shadow: 0 0 8px #fff8;
     border-color: #372e29;
 }
-
 footer {
     background: rgba(30, 10, 40, 0.8);
     color: #d4af37;
