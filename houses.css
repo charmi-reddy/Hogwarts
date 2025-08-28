@@ -24,7 +24,6 @@ body::before {
     z-index: -1;
     pointer-events: none;
 }
-
 .hogwarts-header {
     text-align: center;
     padding: 40px 0 15px 0;
