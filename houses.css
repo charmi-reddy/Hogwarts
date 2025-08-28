@@ -87,7 +87,6 @@ body::before {
     margin-left: auto;
     margin-right: auto;
 }
-
 #sort-btn {
     background: linear-gradient(90deg, #d4af37 60%, #ae0001 100%);
     color: #fff;
