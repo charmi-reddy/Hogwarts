@@ -100,7 +100,6 @@ body::before {
     box-shadow: 0 0 18px #ffd70088;
     transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
 }
-
 #sort-btn:hover {
     background: linear-gradient(90deg, #ae0001 60%, #ffd700 100%);
     box-shadow: 0 0 32px #ffd700cc;
