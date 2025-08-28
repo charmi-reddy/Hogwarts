@@ -105,19 +105,16 @@ body::before {
     box-shadow: 0 0 32px #ffd700cc;
     transform: scale(1.05);
 }
-
 #result {
     margin-top: 22px;
     font-size: 1.6em;
     font-family: 'UnifrakturCook', cursive;
     text-shadow: 0 0 12px #fff8, 0 0 8px #d4af37;
 }
-
 .houses-list {
     text-align: center;
     margin: 40px 0 30px 0;
 }
-
 .houses-list h2 {
     font-family: 'UnifrakturCook', cursive;
     color: #ffd700;
