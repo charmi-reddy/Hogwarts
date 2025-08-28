@@ -5,7 +5,7 @@ body {
     font-family: 'Cinzel', 'Times New Roman', serif;
     color: #f3e9d2;
     position: relative;
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 .bg-overlay {
     position: fixed;
